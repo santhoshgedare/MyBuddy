@@ -4,7 +4,6 @@ using MyBuddy.Domain.Tenancy;
 using MyBuddy.Infrastructure.Tenancy;
 using MyBuddy.Infrastructure.Identity;
 using MyBuddy.Infrastructure.Persistence;
-using MyBuddy.Infrastructure.Tenancy;
 
 namespace MyBuddy.TenantIsolationTests;
 
