@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  color: #172033;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem clamp(1.5rem, 6vw, 5rem);
+  border-bottom: 1px solid #e5eaf1;
+  background: #fff;
+}
+
+.brand {
+  color: #3157c8;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.app-header span,
+.welcome-card p {
+  color: #596579;
+}
+
+.page-content {
+  width: min(100% - 3rem, 72rem);
+  margin: 4rem auto;
+}
+
+.welcome-card {
+  max-width: 46rem;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  border: 1px solid #e5eaf1;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 1rem 2.5rem rgb(23 32 51 / 6%);
+}
+
+.eyebrow {
+  color: #3157c8 !important;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0.75rem 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.welcome-card p:last-child {
+  max-width: 38rem;
+  line-height: 1.7;
+}

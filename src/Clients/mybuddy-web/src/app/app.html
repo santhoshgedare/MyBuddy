@@ -1,0 +1,16 @@
+<header class="app-header">
+  <a class="brand" routerLink="/" aria-label="MyBuddy home">MyBuddy</a>
+  <span>People and projects, working together</span>
+</header>
+
+<main class="page-content">
+  <section class="welcome-card" aria-labelledby="welcome-title">
+    <p class="eyebrow">Employee and project management</p>
+    <h1 id="welcome-title">Welcome to {{ title }}</h1>
+    <p>
+      Your workspace foundation is ready. Sign-in, tenant-aware navigation, and
+      management modules will be added in the next implementation stages.
+    </p>
+  </section>
+  <router-outlet />
+</main>
