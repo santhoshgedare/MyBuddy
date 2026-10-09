@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <UserSecretsId>MyBuddy-Api-Development</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <ProjectReference Include="..\MyBuddy.Application\MyBuddy.Application.csproj" />
+    <ProjectReference Include="..\MyBuddy.Contracts\MyBuddy.Contracts.csproj" />
+    <ProjectReference Include="..\MyBuddy.Infrastructure\MyBuddy.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

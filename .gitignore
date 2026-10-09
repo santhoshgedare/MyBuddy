@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/coverage/
+**/.angular/
+.vs/
+.idea/
+*.user
+*.suo
+*.mdf
+*.ldf
